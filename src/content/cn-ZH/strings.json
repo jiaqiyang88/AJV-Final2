@@ -1,0 +1,109 @@
+{
+    "title": {
+        "1": "Moonbucks Mug",
+        "2": "Moonbucks Medium Roast Coffee",
+        "3": "Moonbucks Coffee Filters",
+        "4": "Moonbucks Tumbler",
+        "5": "Moonbucks Light Roast Coffee",
+        "6": "Moonbucks Picnic Blanket",
+        "7": "Moonbucks French Press",
+        "8": "Moonbucks Dark Roast Coffee",
+        "9": "Moonbucks Herbal Tea",
+        "10": "Moonbucks Earrings",
+        "11": "Moonbucks Electric Milk Frother",
+        "12": "Moonbucks Spoon",
+        "13": "Moonbucks Coffee Maker Dust Cover"
+    },
+    "desc": {
+        "1": "The Moonbucks Mug is handmade by our in-house ceramicist, Daniella Larson. Daniella has had a ceramics studio for 15 years, and particularly enjoys the moon-themed mugs she has designed for Moonbucks. There are 5 different versions of this mug: white, beige, yellow, pink, and light blue.",
+        "2": "Moonbucks Medium Roast Coffee is a well-balanced, delicious blend. Caffeine content is medium. The flavor profile is creamy like milk chocolate, with medium acidity.",
+        "3": "The Moonbucks Coffee Filters are easy to use. It filters all coffee grounds very effectively. The pack comes with 200 filters. The filters are compostable and are made with 100% recycled materials.",
+        "4": "The Moonbucks Tumbler is a favorite for cold-brew aficionados. It is made out of recycled glass. The tumbler comes with a glass straw.",
+        "5": "Moonbucks Light Roast Coffee has a mellow body, and light flavors. The caffeine content is slightly higher compared to our Dark Roast. Our Light Roast Coffee's delightful floral and fruity flavor profile will keep you coming back for more!",
+        "6": "The Moonbucks Picnic Blanket is a wonderful spring or summer item to add to your Moonbucks-themed picnics in the park. The blanket is a cotton blend and is machine washable. The dreamy design was created by our in-house designer, Marc Charpentier.",
+        "7": "The Moonbucks French Press is an important addition to your coffee equipment collection. The coffee brewed with this French Press will have a heavy body and wonderfully robust taste. This method of coffee brewing results in a superior taste and is environmentally friendly. The Moonbucks French Press was designed by our in-house designer, Marc Charpentier. This French Press is made out of stainless steel.",
+        "8": "Moonbucks Dark Roast Coffee is a bold, full coffee. Its flavor profile is decadent, chocalately, and bittersweet. This is a great choice for espresso drinks, or drinks that incorporate milk or cream. Enjoy!",
+        "9": "Moonbucks Herbal Tea is a night-time herbal blend. It is a sleep aid. This blend is made with lavendar, chamomile, lemon balm, and linden flower.",
+        "10": "These Moonbucks Earrings are a special pair of earrings that are perfect as a gift to someone special, or as a gift to yourself! They are 18 karat gold. Th earrings were designed by our in-house designer, Marc Charpentier.",
+        "12": "The Moonbucks Spoon is a dreamy, luxurious spoon that will bring you joy with every use! This special spoon was designed by our in-house designer, Marc Charpentier. It is made of 14 karat gold. ",
+        "13": "The Moonbucks Coffee Maker Dust Cover offers a convenient storage solution that is also a piece of art in itself! The dust cover is made with 2 layers of quilted polyester, filled with polyfiber padding. It is stain resistent. The imaginative design was created by our in-house designer, Marc Charpentier."
+    },
+    "Navbar": {
+        "searchPlaceholder": "What are you looking for?",
+        "searchButtonLabel": "search products",
+        "logoAlt": "Moonbucks Logo",
+        "searchIconAlt": "search icon",
+        "greetingText": "Hello there!",
+        "historyLink": "ORDER HISTORY",
+        "arrowAlt": "Drop Down Arrow",
+        "cartAlt": "show cart",
+        "navLinkHome": "HOME",
+        "navLinkDroids": "MOONS",
+        "navLinkVehicles": "COFFEES"
+    },
+    "Home": {
+        "welcomeSubtitle": "Welcome to the Moon! We serve coffee.",
+        "symbolAlt": "Moonbucks currency symbol"
+    },
+    
+    "Checkout": {
+        "checkoutTitle": "Checkout",
+        "shipSectionLabel": "Shipping Info",
+        "firstNameLabel": "First Name",
+        "lastNameLabel": "Last Name",
+        "coordinatesLabel": "Coordinates",
+        "coordinatesHolder": "0,0,0",
+        "sectorLabel": "Sector",
+        "methodLabel": "Shipping Method",
+        "shipLightspeed": "Fastest Delivery",
+        "shipOvernight": "Fast Delivery",
+        "shipStandard": "Standard",
+        "paySectionLabel": "Payment",
+        "payNameLabel": "Name on Card",
+        "payNameHolder": "First Last",
+        "accountLabel": "Credit Number",
+        "accountHolder": "1234567-9876-00",
+        "securityLabel": "Security Code",
+        "securityHolder": "123456",
+        "expDateLabel": "Expiration Date",
+        "cartTitle": "Shopping Cart",
+        "deleteAlt": "remove item from cart",
+        "totalLabel": "Total: ",
+        "orderLabel": "PLACE ORDER",
+        "termsStatement": "I have read and agree to the Terms and Conditions",
+        "termsLink": "(View)",
+        "successMessage": "Order placed successfully!",
+        "noItemMessage": "Add items to cart to checkout."
+    },
+    "ProductShow": {
+        "qtyLabel": "Qty: ",
+        "addToCartLabel": "ADD TO CART"
+    },
+    "Cart": {
+        "cartTitle": "Shopping Cart",
+        "noItemMsg": "No items in cart.",
+        "deleteAlt": "Delete item from cart",
+        "totalTitle": "Total: ",
+        "checkoutLabel": "CHECKOUT",
+        "closeAlt": "Close Cart"
+    },
+    "OrderHistory": {
+        "historyTitle": "Order History",
+        "dateHeading": "Date",
+        "numberHeading": "Order Number",
+        "totalHeading": "Total",
+        "statusHeading": "Status"
+    },
+    "Error404": {
+        "errorMessage": "404 Error: Page not found."
+    },
+    "Bottombar": {
+        "menuAlt": "open sidebar menu"
+    },
+    "LocaleSelector": {
+        "localeLabel": "Locale: ",
+        "localeEN": "English - US",
+        "localeZH": "Chinese - China"
+    },
+    "Special": "Special"
+}
