@@ -92,7 +92,9 @@
         "dateHeading": "Date",
         "numberHeading": "Order Number",
         "totalHeading": "Total",
-        "statusHeading": "Status"
+        "statusHeading": "Status",
+        "processing": "processing",
+        "shipped":"shipped"
     },
     "Error404": {
         "errorMessage": "404 Error: Page not found."

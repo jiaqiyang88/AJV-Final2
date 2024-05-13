@@ -18,6 +18,8 @@ let OrderHistory = {
         let totalHeading = i18n.getString("OrderHistory", "totalHeading");
         let statusHeading = i18n.getString("OrderHistory", "statusHeading");
 
+
+
         //view is solely for HTML markup, contains no static text
         let view = `
         <section class="orderHistory">
@@ -27,6 +29,8 @@ let OrderHistory = {
                 <h3>${numberHeading}</h3>
                 <h3>${totalHeading}</h3>
                 <h3>${statusHeading}</h3>
+
+
             </div>`;
 
         orderHistory.forEach((order, key) => {

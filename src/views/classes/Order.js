@@ -31,17 +31,35 @@ class Order {
     getOrderStatus() {
         //calculate diff
         let oneDay = 24*60*60*1000; // hours*minutes*seconds*milliseconds
-        let now = new Date(); //$NON-NLS-L$
-        var diffDays = Math.floor(Math.abs((this.orderDate.getTime() - now.getTime())/(oneDay))); //$NON-NLS-L$
+        let now = new Date();
+        var diffDays = Math.floor(Math.abs((this.orderDate.getTime() - now.getTime())/(oneDay)));
+    
+        const locale = 'en-US'; // Example locale, you should set it based on the user's preferred language
+    
+        const messages = {
+            'en-US': {
+                processing: 'Processing',
+                shipped: 'Shipped',
+                delivered: 'Delivered'
+            },
+            'zh-CN':{
+                processing: '处理中',
+                shipped: '已发货',
+                delivered: '已送达'
 
+            }
+           
+            // Add more locales and their translations as needed
+        };
+    
         if(diffDays < 2) {
-            return "Processing";
+            return messages[locale].processing;
         }
         if(diffDays < 4) {
-            return "Shipped"
+            return messages[locale].shipped;
         }
         else{
-            return "Delivered";
+            return messages[locale].delivered;
         }
     }
 

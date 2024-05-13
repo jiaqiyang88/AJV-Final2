@@ -92,7 +92,9 @@
         "dateHeading": "日期",
         "numberHeading": "订单号",
         "totalHeading": "总计",
-        "statusHeading": "状态"
+        "statusHeading": "状态",
+        "processing":"正在处理",
+        "shipped":"已发货"
     },
     "Error404": {
         "errorMessage": "找不到页面"
