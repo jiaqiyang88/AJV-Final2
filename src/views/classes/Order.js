@@ -17,7 +17,6 @@ class Order {
         
         this.total = total;
     }
-
     getOrderDate() {
         var dd = String(this.orderDate.getDate()).padStart(2, '0');
         var mm = String(this.orderDate.getMonth() + 1).padStart(2, '0'); //January is 0!
@@ -28,7 +27,6 @@ class Order {
     }
 
     //create a dummy "order status" string
-    User
     getOrderStatus() {
         //calculate diff
         let oneDay = 24*60*60*1000; // hours*minutes*seconds*milliseconds
@@ -44,6 +42,7 @@ class Order {
         else{
             return "Delivered";
         }
+    } 
 }
 
 export {Order};
