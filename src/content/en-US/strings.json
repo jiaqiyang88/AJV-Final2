@@ -38,8 +38,8 @@
         "arrowAlt": "Drop Down Arrow",
         "cartAlt": "show cart",
         "navLinkHome": "HOME",
-        "navLinkDroids": "MOON-RELATED PRODUCTS",
-        "navLinkVehicles": "COFFEE-RELATED PRODUCTS"
+        "navLinkDroids": "     MOON-RELATED PRODUCTS  COFFEE-RELATED PRODUCTS",
+        "navLinkVehicles": ""
     },
     "Home": {
         "welcomeSubtitle": "Welcome to the Moon! We serve coffee.",
@@ -108,6 +108,10 @@
         "localeLabel": "Locale: ",
         "localeEN": "English - US",
         "localeZH": "中文 (中国)"
+    },
+    "Browse":{
+        "allDroids":"All Droids",
+        "allVehicles": "All Vehicles"
     },
     "Special": "Special"
 }

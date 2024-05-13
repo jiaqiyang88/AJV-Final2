@@ -49,6 +49,7 @@ let Navbar = {
                 </div>
                 <div class="dropdown-content">
                     <a href="./#/history" class=".historyButt">${historyLink}</a>
+                    <a href="./#/" class="navLink" id="">${navLinkHome}</a></li>
                 </div>
             </div>
             <img src="img/cart.svg" class="cartIcon" alt="${cartAlt}">
@@ -64,9 +65,8 @@ let Navbar = {
     <nav>
         <!-- nav links here -->
         <ul>
-            <li><a href="./#/" class="navLink" id="">${navLinkHome}</a></li>
+            
             <li><a href="./#/droids" class="navLink" id="droids">${navLinkDroids}</a></li>
-            <li><a href="./#/vehicles" class="navLink" id="vehicles">${navLinkVehicles}</a></li>
         </ul>
     </nav>
     `;
