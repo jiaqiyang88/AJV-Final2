@@ -35,7 +35,8 @@ class Order {
         var diffDays = Math.floor(Math.abs((this.orderDate.getTime() - now.getTime())/(oneDay)));
     
         const locale = 'en-US'; // Example locale, you should set it based on the user's preferred language
-    
+        const locale = 'zh-CN';
+
         const messages = {
             'en-US': {
                 processing: 'Processing',
