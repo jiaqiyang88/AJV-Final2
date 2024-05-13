@@ -43,7 +43,8 @@
     },
     "Home": {
         "welcomeSubtitle": "欢迎来到月巴克！我们提供咖啡",
-        "symbolAlt": "月巴克货币符号"
+        "symbolAlt": "月巴克货币符号",
+        "welcomeToMoonBucks": "欢迎来到月巴克！"
     },
     
     "Checkout": {
@@ -93,9 +94,9 @@
         "numberHeading": "订单号",
         "totalHeading": "总计",
         "statusHeading": "状态",
-        "Processing":"正在处理",
-        "Shipped":"已发货",
-        "Delivered":"已送达"
+        "processing":"正在处理",
+        "shipped":"已发货",
+        "delivered":"已送达"
     },
     "Error404": {
         "errorMessage": "找不到页面"

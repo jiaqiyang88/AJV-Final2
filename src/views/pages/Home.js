@@ -5,11 +5,12 @@ let Home = {
     render : async () => {
         //fetch locale-sensitive strings via i18n method
         let welcomeSubtitle = i18n.getString("Home", "welcomeSubtitle");
+        let welcomeToMoonBucks = i18n.getString("Home", "welcomeToMoonBucks");
 
         //view is solely for HTML markup, contains no static text
         let view = `
                     <section class="welcome">
-                        <h1 class="center">Welcome to Moonbucks!</h1>
+                        <h1 class="center">${welcomeToMoonBucks}</h1>
                         <h3 class="center white">${welcomeSubtitle}</h3>
                     </section>
                     <div class="browseGrid homeGrid">`;

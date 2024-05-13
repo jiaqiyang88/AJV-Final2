@@ -43,7 +43,8 @@
     },
     "Home": {
         "welcomeSubtitle": "Welcome to the Moon! We serve coffee.",
-        "symbolAlt": "Currency symbol"
+        "symbolAlt": "Currency symbol",
+        "welcomeToMoonBucks": "Welcome To Moonbucks!"
     },
     
     "Checkout": {
@@ -93,9 +94,9 @@
         "numberHeading": "Order Number",
         "totalHeading": "Total",
         "statusHeading": "Status",
-        "Processing": "Processing",
-        "Shipped":"Shipped",
-        "Delivered":"Delivered"
+        "processing": "Processing",
+        "shipped":"Shipped",
+        "delivered":"Delivered"
     },
     "Error404": {
         "errorMessage": "404 Error: Page not found."

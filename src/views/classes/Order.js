@@ -26,23 +26,43 @@ class Order {
         return date;
     }
 
-    //create a dummy "order status" string
+    consti18n = {
+        getString(key, locale) {
+            // Simulated example of fetching strings from a resource file or dictionary
+            const strings = {
+                'en': {
+                    processing: 'Processing',
+                    shipped: 'Shipped',
+                    delivered: 'Delivered'
+                },
+                // Add more locales and their translations as needed
+            };
+    
+            const localeStrings = strings[locale] || strings['en']; // Default to English if locale not found
+            return localeStrings[key];
+        }
+    };
+
     getOrderStatus() {
         //calculate diff
         let oneDay = 24*60*60*1000; // hours*minutes*seconds*milliseconds
         let now = new Date(); //$NON-NLS-L$
+        let processing = i18n.getString("OrderHistory", "processing");
+        let shipped = i18n.getString("OrderHistory", "shipped");
+        let delivered = i18n.getString("OrderHistory", "delivered");
         var diffDays = Math.floor(Math.abs((this.orderDate.getTime() - now.getTime())/(oneDay))); //$NON-NLS-L$
 
         if(diffDays < 2) {
-            return _("Processing");
+            return processing;
         }
         if(diffDays < 4) {
-            return _("Shipped");
+            return shipped;
         }
         else{
-            return _("Delivered");
+            return delivered;
         }
-    } 
+    }   
+
 }
 
 export {Order};
