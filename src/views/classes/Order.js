@@ -26,22 +26,6 @@ class Order {
         return date;
     }
 
-    consti18n = {
-        getString(key, locale) {
-            // Simulated example of fetching strings from a resource file or dictionary
-            const strings = {
-                'en': {
-                    processing: 'Processing',
-                    shipped: 'Shipped',
-                    delivered: 'Delivered'
-                },
-                // Add more locales and their translations as needed
-            };
-    
-            const localeStrings = strings[locale] || strings['en']; // Default to English if locale not found
-            return localeStrings[key];
-        }
-    };
 
     getOrderStatus() {
         //calculate diff
