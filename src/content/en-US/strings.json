@@ -93,8 +93,9 @@
         "numberHeading": "Order Number",
         "totalHeading": "Total",
         "statusHeading": "Status",
-        "processing": "processing",
-        "shipped":"shipped"
+        "Processing": "Processing",
+        "Shipped":"Shipped",
+        "Delivered":"Delivered"
     },
     "Error404": {
         "errorMessage": "404 Error: Page not found."
