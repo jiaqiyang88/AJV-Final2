@@ -107,7 +107,7 @@
     "LocaleSelector": {
         "localeLabel": "语言",
         "localeEN": "English - US",
-        "localeZH": "中文 (中国)"   
+        "localeZH": "中文（简体）"   
     },
     "Browse":{
         "allDroids":"All Droids",
